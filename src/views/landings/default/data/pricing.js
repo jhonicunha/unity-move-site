@@ -1,6 +1,6 @@
 export const pricing = {
   heading: 'Nossos Veículos Disponíveis',
-  caption: 'Escolha o modelo ideal para o seu dia a dia ou viagem. Aluguel simples, rápido e com quilometragem livre.',
+  caption: 'Aluguel simplificado por semana ou por mês com quilometragem livre, seguro incluso e suporte total.',
   features: [
     { id: 1, label: 'Quilometragem Livre' },
     { id: 2, label: 'Seguro Proteção Básica (Colisão e Roubo)' },
@@ -13,21 +13,23 @@ export const pricing = {
   ],
   plans: [
     {
-      title: 'Hatch Econômico (ex: Onix)',
-      price: 99,
+      title: 'Hatch Compacto',
+      price: 1990,
+      period: 'mês',
       active: true,
       featureTitle: 'O que está incluso:',
-      content: 'Carro compacto e muito econômico, perfeito para deslocamentos urbanos rápidos e fácil de estacionar.',
+      content: 'Disponível por R$ 1.990/mês ou R$ 590/semana. Carro econômico, prático e ideal para o dia a dia.',
       contentLink: { children: 'Termos de Locação', href: '#contato' },
       exploreLink: { children: 'Alugar Hatch', href: '#contato' },
       featuresID: [1, 2, 3, 4, 7, 8]
     },
     {
-      title: 'Sedan Conforto (ex: Cronos)',
-      price: 139,
+      title: 'Sedan Conforto',
+      price: 2490,
+      period: 'mês',
       active: false,
       featureTitle: 'O que está incluso:',
-      content: 'Excelente espaço interno e porta-malas amplo. Ideal para viagens em família ou trabalho com total conforto.',
+      content: 'Disponível por R$ 2.490/mês ou R$ 790/semana. Amplo porta-malas e excelente conforto para viagens.',
       contentLink: { children: 'Termos de Locação', href: '#contato' },
       exploreLink: { children: 'Alugar Sedan', href: '#contato' },
       featuresID: [1, 2, 3, 4, 5, 6, 7, 8]

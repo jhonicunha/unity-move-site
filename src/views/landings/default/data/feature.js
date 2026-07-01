@@ -79,8 +79,8 @@ export const feature20 = {
   features: [
     {
       icon: 'tabler-car',
-      title: 'Frota Moderna e Variada',
-      content: 'De modelos econômicos para o dia a dia a SUVs espaçosos para viagens em família.'
+      title: 'Veículos Novos e Revisados',
+      content: 'Nossos hatches e sedans são revisados e higienizados frequentemente para garantir sua segurança.'
     },
     {
       icon: 'tabler-device-mobile',
@@ -89,8 +89,8 @@ export const feature20 = {
     },
     {
       icon: 'tabler-calendar-time',
-      title: 'Flexibilidade Total',
-      content: 'Locação diária, semanal ou assinatura mensal com tarifas competitivas adaptadas a você.'
+      title: 'Planos Semanais e Mensais',
+      content: 'Aluguel semanal ou mensal flexível com tarifas competitivas e quilometragem livre.'
     },
     {
       icon: 'tabler-shield-check',
@@ -100,7 +100,7 @@ export const feature20 = {
     {
       icon: 'tabler-award',
       title: 'Qualidade Garantida',
-      content: 'Todos os veículos são revisados, higienizados e entregues com tanque cheio.'
+      content: 'Todos os veículos são entregues em perfeitas condições para você rodar sem preocupação.'
     },
     {
       icon: 'tabler-currency-real',
@@ -268,13 +268,11 @@ export const feature18 = {
       icon: 'tabler-car',
       title: '1. Escolha o Veículo',
       title2: 'Encontre o Carro Perfeito',
-      description: 'Selecione a categoria de automóvel ideal para a sua necessidade de viagem ou mobilidade.',
+      description: 'Selecione o modelo ideal de hatch ou sedan para a sua necessidade de mobilidade.',
       image: '/assets/images/comofunciona.png',
       list: [
-        { primary: 'Hatches compactos e econômicos' },
-        { primary: 'Sedans espaçosos e confortáveis' },
-        { primary: 'SUVs robustos e modernos' },
-        { primary: 'Veículos executivos de luxo' }
+        { primary: 'Hatch compacto e econômico' },
+        { primary: 'Sedan confortável e espaçoso' }
       ],
       actionBtn: { children: 'Escolher Carro', href: '#pricing' },
       actionBtn2: { children: 'WhatsApp', href: '#contato' }
@@ -283,13 +281,13 @@ export const feature18 = {
       icon: 'tabler-file-analytics',
       title: '2. Escolha o Plano',
       title2: 'Defina Suas Condições',
-      description: 'Decida se prefere a flexibilidade das diárias individuais ou a economia do plano por assinatura mensal.',
+      description: 'Decida se prefere a flexibilidade da contratação semanal ou a economia do plano mensal.',
       image: '/assets/images/fundoarte1.jpg',
       list: [
-        { primary: 'Locação diária eventual' },
-        { primary: 'Assinatura mensal recorrente' },
-        { primary: 'Seguro básico ou completo' },
-        { primary: 'Opções de quilometragem livre' }
+        { primary: 'Plano Semanal Flex' },
+        { primary: 'Plano Mensal Recorrente' },
+        { primary: 'Seguro completo incluso' },
+        { primary: 'Quilometragem livre' }
       ],
       actionBtn: { children: 'Ver Tarifas', href: '#pricing' },
       actionBtn2: { children: ' WhatsApp', href: '#contato' }
@@ -313,7 +311,7 @@ export const feature18 = {
       icon: 'tabler-key',
       title: '4. Pegue as Chaves',
       title2: 'Retire e Dirija',
-      description: 'Retire o veículo limpo e abastecido na nossa base e aproveite a sua viagem com total tranquilidade.',
+      description: 'Retire o veículo limpo e abastecido na nossa base e aproveite a sua jornada com total tranquilidade.',
       image: '/assets/images/comofunciona.png',
       list: [
         { primary: 'Check-list digital de vistoria' },

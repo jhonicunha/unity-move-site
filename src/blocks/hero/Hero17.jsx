@@ -216,7 +216,7 @@ export default function Hero17({ chip, headLine, captionLine, primaryBtn, videoS
             transition={{ duration: 0.9, delay: 0.3 }}
             style={{ scale }}
           >
-            <GraphicsCard sx={{ border: '5px solid', borderColor: 'grey.300' }}>
+            <GraphicsCard sx={{ maxWidth: { xs: '100%', md: '50%' }, mx: 'auto', border: '5px solid', borderColor: 'grey.300' }}>
               <video
                 playsInline
                 ref={videoRef}

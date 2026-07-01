@@ -22,74 +22,44 @@ import { generateFocusVisibleStyles } from '@/utils/CommonFocusStyle';
 const linkProps = { target: '_blank', rel: 'noopener noreferrer' };
 const menuItems = [
   {
-    id: 'resources',
-    grid: { size: { xs: 12, sm: 'auto' } },
-    title: 'Resources',
+    id: 'navigation',
+    grid: { size: { xs: 6, sm: 'auto' } },
+    title: 'Menu',
     menu: [
       {
-        label: 'Freebies',
-        link: { href: FREEBIES_URL, ...linkProps }
+        label: 'Início',
+        link: { href: '#home' }
       },
       {
-        label: 'Documentation',
-        link: { href: DOCS_URL, ...linkProps }
+        label: 'Como Funciona',
+        link: { href: '#como-funciona' }
       },
       {
-        label: 'Blog',
-        link: { href: '#', ...linkProps }
+        label: 'Planos',
+        link: { href: '#planos' }
       },
       {
-        label: 'Refund Policy',
-        link: { href: 'https://mui.com/store/customer-refund-policy/', ...linkProps }
+        label: 'Contato',
+        link: { href: '#contato' }
       }
     ]
   },
   {
-    id: 'support',
+    id: 'contact',
     grid: { size: { xs: 6, sm: 'auto' } },
-    title: 'Support',
+    title: 'Contato',
     menu: [
       {
-        label: 'Pricing',
-        link: { href: '/pricing', ...linkProps }
+        label: 'WhatsApp',
+        link: { href: 'https://wa.me/5511999999999', target: '_blank', rel: 'noopener noreferrer' }
       },
       {
-        label: 'FAQ',
-        link: { href: '/faq', ...linkProps }
+        label: 'Telefone: +55 (11) 99999-9999',
+        link: { href: 'tel:+5511999999999' }
       },
       {
-        label: 'Support',
-        link: { href: branding.company.socialLink.support, ...linkProps }
-      },
-      {
-        label: 'License Terms',
-        link: { href: 'https://mui.com/store/license/', ...linkProps }
-      },
-      {
-        label: 'Discord',
-        link: { href: branding.company.socialLink.discord, ...linkProps }
-      }
-    ]
-  },
-  {
-    id: 'company',
-    grid: { size: { xs: 6, sm: 'auto' } },
-    title: 'Company',
-    menu: [
-      {
-        label: 'Why Unity Move?',
-        link: {
-          href: '/about',
-          ...linkProps
-        }
-      },
-      {
-        label: 'About',
-        link: { href: '/about', ...linkProps }
-      },
-      {
-        label: 'Contact Us',
-        link: { href: '/contact', ...linkProps }
+        label: 'E-mail: contato@unitymove.com.br',
+        link: { href: 'mailto:contato@unitymove.com.br' }
       }
     ]
   }

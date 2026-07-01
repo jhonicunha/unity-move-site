@@ -28,8 +28,8 @@ export const cta4 = {
     { primary: 'Seguro completo incluso em todos os planos' },
     { primary: 'Aprovação de cadastro rápida 100% digital' },
     { primary: 'Suporte e assistência 24h na estrada' },
-    { primary: 'Opções de diárias com quilometragem livre' },
-    { primary: 'Planos flexíveis de carro por assinatura' }
+    { primary: 'Opções de planos semanais com quilometragem livre' },
+    { primary: 'Planos mensais flexíveis e sem burocracia' }
   ],
   clientContent: 'Quero Alugar'
 };

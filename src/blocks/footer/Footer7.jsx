@@ -133,12 +133,9 @@ const usefullLinks = [
 export default function Footer7() {
   const logoFollowContent = (
     <Stack sx={{ alignItems: 'flex-start', gap: { xs: 1.5, sm: 3 } }}>
-      <LogoSection />
-      <Typography variant="h6" sx={{ maxWidth: { sm: 280 }, mb: { xs: -1, sm: -2.5 } }}>
-        {process.env.NEXT_PUBLIC_VERSION}
-      </Typography>
-      <Typography variant="body2" sx={{ maxWidth: { sm: 280 } }}>
-        Explore the different versions of our {branding.brandName} template.
+      <LogoSection full />
+      <Typography variant="body2" sx={{ maxWidth: { sm: 380 } }}>
+        Aluguel flexível de veículos por semana ou mês com a praticidade e segurança que você precisa.
       </Typography>
     </Stack>
   );
@@ -157,30 +154,12 @@ export default function Footer7() {
         <Stack id="footer-7" role="contentinfo" rel="noopener noreferrer" aria-label="Footer 7" sx={{ gap: { xs: 3, sm: 4, md: 5 } }}>
           <Grid container spacing={{ xs: 4, md: 3 }}>
             <Grid size={{ xs: 12, md: 6 }}>
-              <Stack direction={{ sm: 'row', md: 'column' }} sx={{ gap: 3, justifyContent: 'space-between', height: 1 }}>
+              <Stack sx={{ gap: 3, justifyContent: 'flex-start', height: 1 }}>
                 {logoFollowContent}
-                <Stack sx={{ gap: { xs: 2, sm: 2.5, md: 3 } }}>
-                  {usefullLinks.map((item, index) => (
-                    <Stack direction="row" sx={{ gap: 1, alignItems: 'center' }} key={index}>
-                      {item.icon}
-                      <Link
-                        component={NextLink}
-                        variant="body2"
-                        color="text.secondary"
-                        href={item.href}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        aria-label="Usefull Links"
-                      >
-                        {item.title}
-                      </Link>
-                    </Stack>
-                  ))}
-                </Stack>
               </Stack>
             </Grid>
             <Grid size={{ xs: 12, md: 6 }}>
-              <Sitemap list={data} isMenuDesign />
+              <Sitemap isMenuDesign />
             </Grid>
           </Grid>
           <GraphicsCard sx={{ borderRadius: { xs: 6, sm: 8 } }}>

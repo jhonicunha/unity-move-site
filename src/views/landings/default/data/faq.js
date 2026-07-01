@@ -10,7 +10,7 @@ export const faq = {
     },
     {
       question: 'Como funciona a quilometragem nos aluguéis?',
-      answer: 'Todas as nossas diárias e planos de locação contam com quilometragem livre para que você possa viajar e rodar com total tranquilidade, sem taxas adicionais por km rodado.',
+      answer: 'Todos os nossos planos semanais e mensais contam com quilometragem livre para você rodar com total tranquilidade, sem taxas adicionais por km rodado.',
       category: 'Geral'
     },
     {
@@ -34,13 +34,13 @@ export const faq = {
       category: 'Planos e Pagamento'
     },
     {
-      question: 'Como funciona o Carro por Assinatura mensal?',
-      answer: 'No plano de assinatura, você escolhe um carro zero km e paga uma mensalidade fixa que já inclui os custos de IPVA, emplacamento, seguro total, manutenções periódicas preventivas e assistência 24h. É a melhor forma de ter um carro novo sem preocupações de posse.',
+      question: 'Como funciona o aluguel semanal ou mensal?',
+      answer: 'Você pode optar pelo aluguel semanal (renovável) ou pelo aluguel mensal recorrente. Nossos planos já incluem o seguro do veículo e manutenções preventivas, oferecendo máxima economia e praticidade para você.',
       category: 'Planos e Pagamento'
     },
     {
       question: 'Quais são as formas de pagamento aceitas?',
-      answer: 'Para a pré-autorização de garantia (caução), aceitamos exclusivamente cartões de crédito físicos de bandeiras reconhecidas no nome do locatário. Para o pagamento das diárias ou mensalidades, aceitamos cartões de crédito, Pix e boleto bancário.',
+      answer: 'Para a pré-autorização de garantia (caução), aceitamos exclusivamente cartões de crédito físicos de bandeiras reconhecidas no nome do locatário. Para o pagamento dos planos semanais ou mensais, aceitamos cartões de crédito, Pix e boleto bancário.',
       category: 'Planos e Pagamento'
     }
   ],

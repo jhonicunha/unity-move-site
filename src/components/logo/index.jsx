@@ -15,7 +15,7 @@ import LogoIcon from './LogoIcon';
 
 /***************************  MAIN - LOGO  ***************************/
 
-export default function LogoSection({ isIcon, sx, to }) {
+export default function LogoSection({ isIcon, sx, to, full }) {
   const theme = useTheme();
   const palette = theme?.vars ? theme.vars.palette : theme.palette;
 
@@ -26,10 +26,10 @@ export default function LogoSection({ isIcon, sx, to }) {
         sx={{ ...sx, display: 'block', '&:focus-visible': generateFocusVisibleStyles(palette.primary.main) }}
         aria-label="logo"
       >
-        {isIcon ? <LogoIcon /> : <LogoMain />}
+        {isIcon ? <LogoIcon /> : <LogoMain full={full} />}
       </ButtonBase>
     </NextLink>
   );
 }
 
-LogoSection.propTypes = { isIcon: PropTypes.bool, sx: PropTypes.any, to: PropTypes.string };
+LogoSection.propTypes = { isIcon: PropTypes.bool, sx: PropTypes.any, to: PropTypes.string, full: PropTypes.bool };

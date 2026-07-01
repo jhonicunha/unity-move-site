@@ -75,16 +75,19 @@ export default function Pricing9({ heading, caption, features, plans }) {
                           <Typography variant="subtitle1" sx={{ color: 'text.secondary' }}>
                             {plan.title}
                           </Typography>
-                          <Stack>
                             <Typography component="div" variant="h1">
-                              ${plan.offerPrice && plan.offerPrice > 0 ? plan.offerPrice : plan.price}
+                              {plan.currency || 'R$ '}{plan.offerPrice && plan.offerPrice > 0 ? plan.offerPrice : plan.price}
+                              {plan.period && (
+                                <Typography component="span" variant="h4" sx={{ color: 'text.secondary', fontWeight: 'regular', ml: 0.5 }}>
+                                  /{plan.period}
+                                </Typography>
+                              )}
                             </Typography>
                             {!!(plan.offerPrice && plan.offerPrice > 0) && (
                               <Typography variant="h3" sx={{ color: 'grey.700', textDecoration: 'line-through' }}>
-                                ${plan.price}
+                                {plan.currency || 'R$ '}{plan.price}
                               </Typography>
                             )}
-                          </Stack>
                         </Stack>
                       </Stack>
                       <Stack sx={{ height: 1, justifyContent: 'space-between', gap: { xs: 3, sm: 4, md: 5 } }}>
