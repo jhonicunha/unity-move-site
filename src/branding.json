@@ -1,0 +1,24 @@
+{
+  "brandName": "Unity Move",
+  "title": "Locadora de Carros",
+  "company": {
+    "name": "Jhoni Cunha",
+    "url": "https://unitymove.com.br",
+    "socialLink": {
+      "linkedin": "#",
+      "instagram": "#",
+      "facebook": "#",
+      "youtube": "#",
+      "github": "#",
+      "dribble": "#",
+      "discord": "#",
+      "support": "#"
+    }
+  },
+  "logo": {
+    "main": "/assets/images/logo-fb.png",
+    "logoIcon": "/assets/images/favicon.png",
+    "logoFab": "/assets/images/favicon.png",
+    "logoWatermark": ""
+  }
+}
