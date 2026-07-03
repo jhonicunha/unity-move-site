@@ -38,3 +38,7 @@ yarn-error.log*
 
 #pasta temp
 /temp
+
+# open-next build output
+.open-next
+.open-next/*
